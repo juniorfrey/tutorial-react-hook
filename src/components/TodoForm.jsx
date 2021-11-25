@@ -59,8 +59,8 @@ const TodoForm = ({ todoAdd, todoEdit, todoUpdate, settodoEdit }) => {
   return (
     <div>
       <h1 className="display-4 text-success">
-        {" "}
-        {todoEdit ? "Editar tarea" : "Nueva Tarea"}{" "}
+        
+        {todoEdit ? "Editar tarea" : "Nueva Tarea"}
       </h1>
 
       <div className="d-grid">
